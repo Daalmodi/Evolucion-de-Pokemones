@@ -1,0 +1,24 @@
+@use "node_modules/@bbva-web-components/bbva-foundations-sass/main" as *;
+
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host([hidden]), [hidden] {
+  display: none !important;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.contenedor{
+  display: grid;
+  justify-content: center;
+}
