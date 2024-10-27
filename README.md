@@ -49,7 +49,7 @@ import '@bbva-web-components/evolution-pokemon/evolution-pokemon.js';
 ```
 
 ### Description
-
+Este es un componente UI que muestra las evouliciones de cada pokemon  escogido ,Obtiene la informacion de un componente de manejo de datos DM y recibe de otro componente ui de listado de pokemones el id del pokemon.
 ![LitElement component](https://img.shields.io/badge/litElement-component-blue.svg)
 
 This component ...
