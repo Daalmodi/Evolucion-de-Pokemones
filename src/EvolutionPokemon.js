@@ -14,7 +14,7 @@ export class EvolutionPokemon extends cellsPage(LitElement) {
     super();
     this.pokemoEvolutions = [];
     // El pokemon id se modifica segun  la informacion enviada desde el componente UI de la lista de pokemones
-    this.pokemonId =6; 
+    this.pokemonId =parseInt(this.getCurrentRoute().params.id); 
   }
 
   static get styles() {
